@@ -107,7 +107,7 @@ get_record_count_monthly_ticket_summary_logs_temp_table = PythonOperator(
 )
 
 
-def routine_jioevents_projected_aop_logs_fn(**kwargs):
+def routine_monthly_ticket_summary_logs_fn(**kwargs):
     ti = kwargs['ti']
     flag = ti.xcom_pull(task_ids="check_monthly_ticket_summary_logs_temp_table")
 
@@ -136,7 +136,7 @@ routine_monthly_ticket_summary_logs = PythonOperator(
 drop_monthly_ticket_summary_logs_temp_table = PostgresOperator(
     task_id='drop_monthly_ticket_summary_logs_temp_table',
     postgres_conn_id=upload_postgres_conn_id,  
-    sql="DROP TABLE public.public.project_sample; ", 
+    sql="DROP TABLE public.project_sample; ", 
     dag=dag,
 )
 
