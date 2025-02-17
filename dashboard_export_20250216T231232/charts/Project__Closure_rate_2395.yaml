@@ -1,0 +1,62 @@
+slice_name: Project | Closure rate
+description: null
+certified_by: null
+certification_details: null
+viz_type: pie
+params:
+  datasource: 387__table
+  viz_type: pie
+  groupby:
+  - inc_assignment_group
+  metric:
+    expressionType: SIMPLE
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: closure_rate_percentage
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 3674
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: FLOAT
+      type_generic: 0
+      verbose_name: null
+      warning_markdown: null
+    aggregate: SUM
+    sqlExpression: null
+    datasourceWarning: false
+    hasCustomLabel: false
+    label: SUM(closure_rate_percentage)
+    optionName: metric_t3at6z01ays_vcqcbdsjhzh
+  adhoc_filters: []
+  row_limit: 100
+  sort_by_metric: true
+  color_scheme: supersetColors
+  show_labels_threshold: 5
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  legendMargin: null
+  label_type: key_value_percent
+  number_format: SMART_NUMBER
+  date_format: smart_date
+  show_labels: true
+  labels_outside: true
+  label_line: true
+  show_total: true
+  outerRadius: 70
+  donut: true
+  innerRadius: 45
+  extra_form_data: {}
+  dashboards:
+  - 180
+query_context: '{"datasource":{"id":387,"type":"table"},"force":false,"queries":[{"filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["inc_assignment_group"],"metrics":[{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"closure_rate_percentage","description":null,"expression":null,"filterable":true,"groupby":true,"id":3674,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"FLOAT","type_generic":0,"verbose_name":null,"warning_markdown":null},"aggregate":"SUM","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"SUM(closure_rate_percentage)","optionName":"metric_t3at6z01ays_vcqcbdsjhzh"}],"orderby":[[{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"closure_rate_percentage","description":null,"expression":null,"filterable":true,"groupby":true,"id":3674,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"FLOAT","type_generic":0,"verbose_name":null,"warning_markdown":null},"aggregate":"SUM","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"SUM(closure_rate_percentage)","optionName":"metric_t3at6z01ays_vcqcbdsjhzh"},false]],"annotation_layers":[],"row_limit":100,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"387__table","viz_type":"pie","groupby":["inc_assignment_group"],"metric":{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"closure_rate_percentage","description":null,"expression":null,"filterable":true,"groupby":true,"id":3674,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"FLOAT","type_generic":0,"verbose_name":null,"warning_markdown":null},"aggregate":"SUM","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"SUM(closure_rate_percentage)","optionName":"metric_t3at6z01ays_vcqcbdsjhzh"},"adhoc_filters":[],"row_limit":100,"sort_by_metric":true,"color_scheme":"supersetColors","show_labels_threshold":5,"show_legend":true,"legendType":"scroll","legendOrientation":"top","legendMargin":null,"label_type":"key_value_percent","number_format":"SMART_NUMBER","date_format":"smart_date","show_labels":true,"labels_outside":true,"label_line":true,"show_total":true,"outerRadius":70,"donut":true,"innerRadius":45,"extra_form_data":{},"dashboards":[180],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 03d9a406-647a-4cb8-bada-d1103282a29a
+version: 1.0.0
+dataset_uuid: 5f100c9b-9873-47b8-be6d-c8dc2d2388aa
